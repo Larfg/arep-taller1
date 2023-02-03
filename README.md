@@ -1,5 +1,10 @@
 # Taller 1: Aplicaciones Distribuidas (HTTP, Sockets, HTML, JS,MAVEN, GIT) 
 
+## Componentes del taller: 
+- Servidor https://github.com/Larfg/arep-taller1-wbserver 
+- Cliente web https://github.com/Larfg/arep-taller1-JsWsClient 
+- Servidor prueba https://github.com/Larfg/arep-taller1-testserver 
+
 ## Diseño y descripción del diseño: 
 Para este taller se realizaron distintas aplicaciones distribuidas con el objetivo de crear un servicio de consumo de un api de consulta de películas. 
 en donde tenemos una aplicación fachada que nos consume el api y la expone a través de un web socket. 
@@ -14,11 +19,6 @@ Utilizamos un patrón **FACADE** que nos permite simplificar el consumo del api 
 
 ### Modularidad 
 Al tener las aplicaciones distribuidas, podemos cambiar cualquiera de los elementos y estos tiene poca cohesión o ninguna cohesión entre los elementos (módulos), por ejemplo podemos cambiar el cliente web por otro cliente, igual con el servidor de pruebas, también podríamos cambiar la api que se consume. 
-
-## Componentes del taller: 
-- Servidor https://github.com/Larfg/arep-taller1-wbserver 
-- Cliente web https://github.com/Larfg/arep-taller1-JsWsClient 
-- Servidor prueba https://github.com/Larfg/arep-taller1-testserver 
 
 ## Prerrequisitos: 
 Debe tener java, Maven y un navegador web, preferiblemente Firefox.
